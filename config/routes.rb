@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'rankings/index'
+
   get 'users/show'
   get 'users/carousel', to: 'users#carousel'
 
