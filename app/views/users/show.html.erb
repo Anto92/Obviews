@@ -28,9 +28,7 @@
 
     <a class="action-button" href="/match/index" >Voir mes views</a>
 
-    <div>
       <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fobviews-dev.herokuapp.com&layout=button&size=large&mobile_iframe=true&width=89&height=28&appId" width="89" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-    </div>
 
     <% if user_signed_in? %>
       <%= link_to destroy_user_session_path, method: :delete do %>

@@ -116,11 +116,6 @@ class BoardController < ApplicationController
  
 ##################################################################
  
-  def fb_share
-    current_user.karma += 10
-    current_user.save
-  end
-  
   def share
   end
  

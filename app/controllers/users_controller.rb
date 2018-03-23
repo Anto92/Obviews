@@ -2,11 +2,6 @@ class UsersController < ApplicationController
   def show
   end
 
-  def fb_share
-    current_user.karma += 10
-    current_user.save
-  end
-
   def carousel
   end
 

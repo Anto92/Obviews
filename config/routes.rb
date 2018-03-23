@@ -34,8 +34,6 @@ Rails.application.routes.draw do
   get 'board/next', to: 'board#next', as: 'next'
   get 'board/match', to: 'board#match', as: 'match'
   get 'randomizers/reset', to: 'randomizers#reset'
+  get 'board/fb_share', as: 'board_fb_share'
+  get 'users/fb_share', as: 'users_fb_share'
 end
-
-#devise_for :users, controllers: {
-#        sessions: 'users/sessions'
-#      }
